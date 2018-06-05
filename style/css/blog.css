@@ -1,0 +1,51 @@
+.flex, .header_blog {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex; }
+
+.header_blog {
+  width: 100%;
+  padding: 100px;
+  background-image: url(../../img/equipo3.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 100vh 100vw rgba(0, 0, 0, 0.4) inset;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px; }
+  .header_blog h1 {
+    color: #fff;
+    font-size: 300%; }
+    .header_blog h1 small {
+      display: block;
+      font-size: 50%; }
+
+.col-md-12 {
+  padding: 0; }
+
+.col-md-8 {
+  margin: 20px auto;
+  padding: 50px;
+  border-bottom: 1px solid #ddd; }
+  .col-md-8 h1 small {
+    display: block;
+    font-size: 50%;
+    color: #888; }
+  .col-md-8 p {
+    text-align: justify; }
+  .col-md-8:last-child {
+    border-bottom: none; }
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  .header_blog {
+    padding: 20px; }
+    .header_blog h1 {
+      font-size: 200%; } }
+
+/*# sourceMappingURL=blog.css.map */

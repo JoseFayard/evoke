@@ -1,0 +1,20 @@
+$color_fuente: #BC2B2B !important;
+$color_hexa_extra_claro: #ED9D9D !important;
+$color_hexa_claro: #EA6868 !important;
+$color_hexa_medio: #E22727 !important;
+$color_hexa_oscuro: #D81616 !important;
+$color_hexa_extra_oscuro: #B50D0D !important;
+$blanco_perla: #f7f7f7 !important;
+
+
+.flex {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    -webkit-display: flex;
+    -moz-display: flex;
+    -ms-display: flex;
+    -o-display: flex;
+    display: flex;
+}

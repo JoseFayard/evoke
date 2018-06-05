@@ -1,0 +1,53 @@
+.flex, section.container-fluid .row .header_entrada, .info_autor {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex; }
+
+section.container-fluid .row .header_entrada {
+  width: 100%;
+  padding: 100px;
+  background-image: url(../../img/aperture-vintage-339839-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 100vh 100vw rgba(0, 0, 0, 0.4) inset;
+  justify-content: flex-start;
+  align-items: center;
+  height: 400px; }
+  section.container-fluid .row .header_entrada h1 {
+    color: #fff;
+    font-size: 300%; }
+    section.container-fluid .row .header_entrada h1 small {
+      display: block;
+      font-size: 50%; }
+
+.col-md-12 {
+  padding: 0; }
+
+.col-md-8 {
+  margin: 20px auto 100px; }
+  .col-md-8 img {
+    margin: 20px auto; }
+
+.post_fecha {
+  margin: 40px auto 0; }
+  .post_fecha p {
+    color: #BC2B2B !important; }
+
+.info_autor {
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3; }
+  .info_autor img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; }
+  .info_autor h4 small {
+    display: block; }
+
+/*# sourceMappingURL=entrada.css.map */

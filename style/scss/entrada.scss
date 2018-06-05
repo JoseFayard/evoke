@@ -1,0 +1,61 @@
+@import 'colores';
+section.container-fluid {
+    .row {
+        .header_entrada {
+            width: 100%;
+            padding: 100px;
+            background-image: url(../../img/aperture-vintage-339839-unsplash.jpg);
+            background-size: cover;
+            background-position: center;
+            box-shadow: 100vh 100vw rgba(#000, .4) inset;
+            @extend .flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 400px;
+            h1 {
+                color: #fff;
+                font-size: 300%;
+                small {
+                    display: block;
+                    font-size: 50%;
+                }
+            }
+        }
+    }
+}
+
+.col-md-12 {
+    padding: 0;
+}
+
+
+.col-md-8 {
+    margin: 20px auto 100px;
+    img {
+        margin: 20px auto;
+    }
+}
+
+.post_fecha {
+    margin: 40px auto 0;
+    p {
+        color: $color_fuente;
+    }
+}
+
+.info_autor {
+    @extend .flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+    h4 {
+        small {
+            display: block;
+        }
+    }
+}

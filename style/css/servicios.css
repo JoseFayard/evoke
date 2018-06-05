@@ -1,0 +1,84 @@
+.flex, .header_servicios, .col-md-4 .img_serv, .image_line3 {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex; }
+
+.header_servicios {
+  width: 100%;
+  padding: 100px;
+  height: 400px;
+  background-image: url("../../img/code.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 100vh 100vw rgba(0, 0, 0, 0.4) inset;
+  justify-content: flex-start;
+  align-items: center; }
+  .header_servicios h1 {
+    color: #fff;
+    font-size: 300%; }
+    .header_servicios h1 small {
+      display: block;
+      font-size: 50%; }
+
+.col-md-4 {
+  padding: 100px; }
+  .col-md-4 .img_serv {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: thick solid #BC2B2B !important;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9); }
+    .col-md-4 .img_serv img {
+      width: 150px; }
+
+.col-md-8 {
+  padding: 100px; }
+  .col-md-8 p {
+    text-align: justify; }
+
+.image_line {
+  background-image: url("../../img/code2.jpg"); }
+
+.image_line2 {
+  background-image: url("../../img/code4.jpg"); }
+
+.image_line3 {
+  width: 100%;
+  height: 400px;
+  background-image: url("../../img/farzad-nazifi-71686-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  box-shadow: 100vh 100vw rgba(0, 0, 0, 0.4) inset;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 100px; }
+  .image_line3 h3 {
+    width: 400px;
+    color: #f7f7f7 !important; }
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  html, body {
+    overflow-x: hidden; }
+
+  .header_proceso {
+    padding: 20px; }
+    .header_proceso h1 {
+      font-size: 250%; }
+
+  .container-fluid .row .col-md-12, .container-fluid .row .col-md-8 {
+    padding: 20px; }
+  .container-fluid .row .col-md-4 {
+    display: none; }
+
+  .image_line, .image_line2, .image_line3 {
+    height: 200px; } }
+
+/*# sourceMappingURL=servicios.css.map */
