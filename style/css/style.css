@@ -137,7 +137,7 @@ nav {
   height: 400px;
   justify-content: flex-start;
   align-items: center;
-  background-image: url("../../img/imac2.jpg");
+  background-image: url("../../img/img/imac2.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: 400px 100vw rgba(0, 0, 0, 0.4) inset;
@@ -157,7 +157,7 @@ nav {
     color: #f7f7f7 !important; }
 
 .image_line1 {
-  background-image: url("../../img/imac3.jpg"); }
+  background-image: url("../../img/img/imac3.jpg"); }
 
 .image_line2 {
   background-image: url("../../img/contact.jpg"); }
